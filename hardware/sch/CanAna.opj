@@ -1,0 +1,210 @@
+(ExpressProject "CanAna"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library"))
+      (File ".\lxyppc.olb"
+        (Type "Schematic Library"))
+      (File "..\pcb\lib\symbols\pqsyms.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\canana.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "TRUE")
+    (DRC_Report_File "E:\DEV\CADENCE\CANANA.DRC")
+    (Netlist_TAB "0")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "E:\DEV\CADENCE\CANANA.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "E:\DEV\CADENCE\CANANA.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "TRUE"))
+  (Folder "Outputs"
+    (File ".\canana.drc"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File "e:\dev\cadence\canana.bom"
+      (Type "Report"))
+    (File "e:\dev\cadence\canana.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "E:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "E:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName "E:\DEV\PCB\LIB\SYMBOLS\PQSYMS.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "E:\DEV\PCB\LIB\SYMBOLS\PQSYMS.OLB")
+      (DeviceIndex "0"))
+    (DualLED
+      (FullPartName "DualLED.Normal")
+      (LibraryName "E:\DEV\CANANA\HARDWARE\SCH\LXYPPC.OLB")
+      (DeviceIndex "0"))
+    (BL8023
+      (FullPartName "BL8023.Normal")
+      (LibraryName "E:\DEV\CANANA\HARDWARE\SCH\LXYPPC.OLB")
+      (DeviceIndex "0"))
+    (TQ_TN-L2
+      (FullPartName "TQ_TN-L2.Normal")
+      (LibraryName "E:\DEV\CANANA\HARDWARE\SCH\LXYPPC.OLB")
+      (DeviceIndex "0"))
+    (2N3904
+      (FullPartName "2N3904.Normal")
+      (LibraryName "E:\DEV\PCB\LIB\SYMBOLS\PQSYMS.OLB")
+      (DeviceIndex "0"))
+    (1N5139
+      (FullPartName "1N5139.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (G5LA
+      (FullPartName "G5LA.Normal")
+      (LibraryName "E:\DEV\CANANA\HARDWARE\SCH\LXYPPC.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName "E:\DEV\CADENCE\LXYPPC.OLB")
+      (DeviceIndex "0"))
+    (USB-CON
+      (FullPartName "USB-CON.Normal")
+      (LibraryName "E:\DEV\CANANA\HARDWARE\SCH\LXYPPC.OLB")
+      (DeviceIndex "0"))
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "E:\DEV\PCB\LIB\SYMBOLS\PQSYMS.OLB")
+      (DeviceIndex "0"))
+    (Switch2
+      (FullPartName "Switch2.Normal")
+      (LibraryName "E:\DEV\CANANA\HARDWARE\SCH\LXYPPC.OLB")
+      (DeviceIndex "0"))
+    (AMS1117
+      (FullPartName "AMS1117.Normal")
+      (LibraryName "E:\DEV\CANANA\HARDWARE\SCH\LXYPPC.OLB")
+      (DeviceIndex "0"))
+    (STF201
+      (FullPartName "STF201.Normal")
+      (LibraryName "E:\DEV\CANANA\HARDWARE\SCH\LXYPPC.OLB")
+      (DeviceIndex "0"))
+    (FUSE
+      (FullPartName "FUSE.Normal")
+      (LibraryName "E:\DEV\PCB\LIB\SYMBOLS\PQSYMS.OLB")
+      (DeviceIndex "0"))
+    (VARISTOR
+      (FullPartName "VARISTOR.Normal")
+      (LibraryName "E:\DEV\PCB\LIB\SYMBOLS\PQSYMS.OLB")
+      (DeviceIndex "0"))
+    ("CHOKE CM"
+      (FullPartName "CHOKE CM.Normal")
+      (LibraryName "E:\DEV\PCB\LIB\SYMBOLS\PQSYMS.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName "E:\DEV\PCB\LIB\SYMBOLS\PQSYMS.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL_4
+      (FullPartName "CRYSTAL_4.Normal")
+      (LibraryName "F:\CODES\CADENCE\LIB\SYMBOLS\PQSYMS.OLB")
+      (DeviceIndex "0"))
+    (ISO1050
+      (FullPartName "ISO1050.Normal")
+      (LibraryName "E:\DEV\CADENCE\LXYPPC.OLB")
+      (DeviceIndex "0"))
+    (CON6
+      (FullPartName "CON6.Normal")
+      (LibraryName "E:\DEV\PCB\LIB\SYMBOLS\PQSYMS.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_15.7\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "G:\dev\canspider\hardware\sch\canana.dsn")
+      (Path "Design Resources" "G:\dev\canspider\hardware\sch\canana.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources")
+      (Select "Design Resources" "G:\dev\canspider\hardware\sch\canana.dsn"
+         "Design Cache" "CAP POL")
+      (Select "Design Resources" "Library"
+         "G:\dev\canspider\hardware\sch\library1.olb")
+      (Select "Design Resources" "Library"
+         "G:\dev\canspider\hardware\sch\lxyppc.olb")
+      (Select "Outputs" "e:\dev\cadence\canana.drc"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 48 447 52 828"))
+      (Tab 0)))
+  (MPSSessionName "xy")
+  (Folder "Simulation Resources"
+    (Folder "Indesign"
+      (File ".\indesign\cds.lib"
+        (Type "Report")
+        (DisplayName ".\Indesign\cds.lib"))
+      (File ".\indesign\hdl.var"
+        (Type "Report")
+        (DisplayName ".\Indesign\hdl.var"))
+      (File ".\indesign\canana.vhd"
+        (Type "VHDL Source")
+        (DisplayName ".\Indesign\canana.vhd"))
+      (File ".\indesign\stubi.vhd"
+        (Type "VHDL Source")
+        (DisplayName ".\Indesign\StubI.vhd"))
+      (File ".\indesign\sdf.cmd"
+        (Type "Report")
+        (DisplayName ".\Indesign\sdf.cmd")))))
